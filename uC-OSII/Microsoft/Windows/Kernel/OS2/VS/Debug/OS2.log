@@ -1,0 +1,31 @@
+﻿  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"S:\Desktop\uC-OSII\Microsoft\Windows\Kernel\OS2\VS\\.." /I"S:\Desktop\uC-OSII\Microsoft\Windows\Kernel\OS2\VS\\..\.." /I"S:\Desktop\uC-OSII\Microsoft\Windows\Kernel\OS2\VS\\..\..\..\..\BSP\Windows" /I"S:\Desktop\uC-OSII\Microsoft\Windows\Kernel\OS2\VS\\..\..\..\..\..\Micrium\Software\uC-CPU" /I"S:\Desktop\uC-OSII\Microsoft\Windows\Kernel\OS2\VS\\..\..\..\..\..\Micrium\Software\uC-CPU\Win32\Visual_Studio" /I"S:\Desktop\uC-OSII\Microsoft\Windows\Kernel\OS2\VS\\..\..\..\..\..\Micrium\Software\uC-LIB" /I"S:\Desktop\uC-OSII\Microsoft\Windows\Kernel\OS2\VS\\..\..\..\..\..\Micrium\Software\uCOS-II\Ports\Win32\Visual Studio" /I"S:\Desktop\uC-OSII\Microsoft\Windows\Kernel\OS2\VS\\..\..\..\..\..\Micrium\Software\uCOS-II\Source" /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:prompt ..\main.c
+  
+  main.c
+  Microsoft (R) Incremental Linker Version 14.16.27045.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  "/OUT:S:\Desktop\uC-OSII\Microsoft\Windows\Kernel\OS2\VS\Debug\OS2.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:S:\Desktop\uC-OSII\Microsoft\Windows\Kernel\OS2\VS\Debug\OS2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:S:\Desktop\uC-OSII\Microsoft\Windows\Kernel\OS2\VS\Debug\OS2.lib" /MACHINE:X86 Debug\cpu_core.obj 
+  Debug\cpu_c.obj 
+  Debug\lib_ascii.obj 
+  Debug\lib_math.obj 
+  Debug\lib_mem.obj 
+  Debug\lib_str.obj 
+  Debug\os_cpu_c.obj 
+  Debug\os_core.obj 
+  Debug\os_dbg_r.obj 
+  Debug\os_flag.obj 
+  Debug\os_mbox.obj 
+  Debug\os_mem.obj 
+  Debug\os_mutex.obj 
+  Debug\os_q.obj 
+  Debug\os_sem.obj 
+  Debug\os_task.obj 
+  Debug\os_time.obj 
+  Debug\os_tmr.obj 
+  Debug\bsp_cpu.obj 
+  Debug\app_hooks.obj 
+  Debug\main.obj 
+  OS2.vcxproj -> S:\Desktop\uC-OSII\Microsoft\Windows\Kernel\OS2\VS\Debug\OS2.exe
